@@ -37,6 +37,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### timesfm-baseline
 
 <img src="docs/images/timesfm_baseline.png"/>
+
+[`timesfm/baseline.py`](benchstreet/timesfm/baseline.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/timesfm_baseline_ZOOMED.png" width="80%">
@@ -46,7 +49,7 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 
 <img src="docs/images/timesfm_finetuned.png"/>
 
-[download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-timesfm-2.0-500m-torch-sp500)
+[`timesfm/fine_tune.ipynb`](benchstreet/timesfm/fine_tune.ipynb) • [download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-timesfm-2.0-500m-torch-sp500)
 
 <details>
 <summary>view magnified graph</summary>
@@ -58,6 +61,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### chronos-baseline
 
 <img src="docs/images/chronos_baseline.png"/>
+
+[`chronos/baseline.py`](benchstreet/chronos/baseline.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/chronos_baseline_ZOOMED.png" width="80%">
@@ -67,7 +73,7 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 
 <img src="docs/images/chronos_finetuned.png"/>
 
-[download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-chronos-t5-small-sp500)
+[`chronos/fine_tune.ipynb`](benchstreet/chronos/fine_tune.ipynb) • [download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-chronos-t5-small-sp500)
 
 <details>
 <summary>view magnified graph</summary>
@@ -79,6 +85,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### mlp-recursive
 
 <img src="docs/images/mlp_recursive.png"/>
+
+[`mlp/recursive.py`](benchstreet/mlp/recursive.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/mlp_recursive_ZOOMED.png" width="80%">
@@ -87,6 +96,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### mlp-vector
 
 <img src="docs/images/mlp_vector_multistep.png"/>
+
+[`mlp/vector.py`](benchstreet/mlp/vector.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/mlp_vector_multistep_ZOOMED.png" width="80%">
@@ -95,6 +107,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 ### N-BEATS
 
 <img src="docs/images/nbeats.png"/>
+
+[`n_beats/direct.py`](benchstreet/n_beats/direct.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/nbeats_ZOOMED.png" width="80%">
@@ -105,6 +120,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### 1d-cnn-recursive
 
 <img src="docs/images/cnn_1d_recursive.png"/>
+
+[`cnn/recursive.py`](benchstreet/cnn/recursive.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/cnn_1d_recursive_ZOOMED.png" width="80%">
@@ -113,6 +131,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### 1d-cnn-vector
 
 <img src="docs/images/cnn_1d_vector_multistep.png"/>
+
+[`cnn/vector.py`](benchstreet/cnn/vector.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/cnn_1d_vector_multistep_ZOOMED.png" width="80%">
@@ -121,6 +142,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 ### TemporalCN
 
 <img src="docs/images/tcn_vector_multistep.png"/>
+
+[`tcn/vector.py`](benchstreet/tcn/vector.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/tcn_vector_multistep_ZOOMED.png" width="80%">
@@ -131,6 +155,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### lstm-recursive
 
 <img src="docs/images/lstm_recursive.png"/>
+
+[`lstm/recursive.py`](benchstreet/lstm/recursive.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/lstm_recursive_ZOOMED.png" width="80%">
@@ -139,6 +166,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### lstm-vector
 
 <img src="docs/images/lstm_vector_multistep.png"/>
+
+[`lstm/vector.py`](benchstreet/lstm/vector.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/lstm_vector_multistep_ZOOMED.png" width="80%">
@@ -147,6 +177,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### lstm-encoder-decoder
 
 <img src="docs/images/lstm_encdec_multistep.png"/>
+
+[`lstm/encdec.py`](benchstreet/lstm/encdec.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/lstm_encdec_multistep_ZOOMED.png" width="80%">
@@ -157,6 +190,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### gru-recursive
 
 <img src="docs/images/gru_recursive.png"/>
+
+[`gru/recursive.py`](benchstreet/gru/recursive.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/gru_recursive_ZOOMED.png" width="80%">
@@ -165,6 +201,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 #### gru-vector
 
 <img src="docs/images/gru_vector_multistep.png"/>
+
+[`gru/vector.py`](benchstreet/gru/vector.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/gru_vector_multistep_ZOOMED.png" width="80%">
@@ -173,6 +212,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 ### ARIMA
 
 <img src="docs/images/arima_recursive.png"/>
+
+[`arima/recursive.py`](benchstreet/arima/recursive.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/arima_recursive_ZOOMED.png" width="80%">
@@ -181,6 +223,9 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 ### SARIMAX
 
 <img src="docs/images/sarima.png"/>
+
+[`sarimax/direct.ipynb`](benchstreet/sarimax/direct.ipynb)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/sarima_ZOOMED.png" width="80%">
@@ -189,7 +234,14 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 ### FBProphet
 
 <img src="docs/images/prophet.png"/>
+
+[`fbprophet/direct.py`](benchstreet/fbprophet/direct.py)
+
 <details>
 <summary>view magnified graph</summary>
 <img src="docs/images/prophet_ZOOMED.png" width="80%">
 </details>
+
+<hr />
+
+Want a model added to this list? Raise an issue [here](https://github.com/puffinsoft/benchstreet/issues) or [make a PR](https://github.com/puffinsoft/benchstreet/pulls)!
