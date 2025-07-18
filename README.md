@@ -2,19 +2,24 @@
 
 <hr/>
 
+![](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white) ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white) ![](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black)
+
 **Benchstreet** is a curated collection of time series prediction models designed to help developers evaluate and compare the performance of different approaches in **one-shot**, **long-term** financial data forecasting.
 
 The models are trained on 20 years of S&P 500 daily closing prices provided by [Investing.com](https://investing.com/indices/us-spx-500-historical-data).
 
-- **Important**: this is not an objective benchmark! It's intended as a qualitative guide and a reference on how to implement these models.
+> [!IMPORTANT]
+> This is not an objective benchmark! It's intended as a qualitative guide and a reference on how to implement these models.
 
-<img src="docs/images/diagram.png"/>
+![](docs/images/diagram.png)
+
+<hr />
 
 ### Table of Contents
 
 | Model Type                           |                                                       |
 |--------------------------------------|-------------------------------------------------------|
-| Transformer/Foundation Models        | TimesFM ([baseline](#timesfm-baseline) • [**fine-tuned**](#timesfm-fine-tuned)), Chronos ([baseline](#chronos-baseline) • [**fine tuned**](#chronos-fine-tuned)) |
+| Transformer/Foundation Models        | TimesFM ([baseline](#timesfm-baseline) • [**fine-tuned**](#timesfm-fine-tuned)), Chronos ([baseline](#chronos-baseline) • [**fine-tuned**](#chronos-fine-tuned)) |
 | Feedforward Neural Networks (FNNs)   | MLP ([recursive](#mlp-recursive) • [vector](#mlp-vector)), N-BEATS ([direct](#n-beats)) |
 | Convolutional Neural Networks (CNNs) | 1D-CNN ([recursive](#1d-cnn-recursive) • [vector](#1d-cnn-vector)), TemporalCN ([vector](#temporalcn)) |
 | Recurrent Neural Networks (RNNs)     | LSTM ([recursive](#lstm-recursive) • [vector](#lstm-vector) • [encoder-decoder](#lstm-encoder-decoder)), GRU ([recursive](#gru-recursive) • [vector](#gru-vector)) |
@@ -23,7 +28,7 @@ The models are trained on 20 years of S&P 500 daily closing prices provided by [
 Want a model added to this list? Raise an issue [here](https://github.com/puffinsoft/benchstreet/issues) or [make a PR](https://github.com/puffinsoft/benchstreet/pulls)!
 
 > [!TIP]
-> **The winner**: N-BEATS. High accuracy with extremely low training time. For even higher accuracy, consider fine-tuning TimesFM for your dataset.
+> **The winner**: [N-BEATS](#n-beats). High accuracy with extremely low training time.
 
 <hr />
 
