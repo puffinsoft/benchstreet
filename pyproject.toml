@@ -2,7 +2,14 @@
 name = "benchstreet"
 version = "1.0.0"
 description = "A curated collection of time series prediction models for one shot, long term financial forecasting evaluation."
+authors = [{ name = "ColonelParrot" }]
 
 [build-system]
 build-backend = "flit_core.buildapi"
 requires = ["flit_core >=3.2,<4"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["benchstreet/requirements.txt"]}
+
+[project.urls]
+Home = "https://github.com/puffinsoft/benchstreet"
