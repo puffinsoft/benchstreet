@@ -1,8 +1,11 @@
 [project]
 name = "benchstreet"
-version = "1.0.0"
+version = "1.0.1"
 description = "A curated collection of time series prediction models for one shot, long term financial forecasting evaluation."
 authors = [{ name = "ColonelParrot" }]
+license = "MIT"
+readme = "README.md"
+
 
 [build-system]
 build-backend = "flit_core.buildapi"
