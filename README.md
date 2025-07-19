@@ -49,7 +49,7 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 
 <img src="docs/images/timesfm_finetuned.png"/>
 
-[`timesfm/fine_tune.ipynb`](benchstreet/timesfm/fine_tune.ipynb) • [download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-timesfm-2.0-500m-torch-sp500)
+[`timesfm/fine_tune.py`](benchstreet/timesfm/fine_tune.py) • [download on huggingface 🤗](https://huggingface.co/ColonelParrot/benchstreet-timesfm-2.0-500m-torch-sp500)
 
 <details>
 <summary>view magnified graph</summary>
@@ -224,7 +224,7 @@ Want a model added to this list? Raise an issue [here](https://github.com/puffin
 
 <img src="docs/images/sarima.png"/>
 
-[`sarimax/direct.ipynb`](benchstreet/sarimax/direct.ipynb)
+[`sarimax/direct.py`](benchstreet/sarimax/direct.py)
 
 <details>
 <summary>view magnified graph</summary>
